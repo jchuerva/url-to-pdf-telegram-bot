@@ -1,4 +1,4 @@
-FROM rackspacedot/python37
+FROM balenalib/raspberry-pi2-alpine-python:3.7.4-edge-build-20191011
 
 RUN apt-get install wkhtmltopdf
 
